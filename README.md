@@ -2,7 +2,9 @@
 
 ## 📌 Description
 Auto Defense Cybersecurity Framework is a Linux-based security system that automates threat detection, monitoring, and response.  
-It integrates multiple security modules into a single command-line interface for better system protection.
+It provides a centralized platform to manage multiple cybersecurity operations through a simple command-line interface.
+
+The system continuously monitors system activity, detects suspicious behavior, and automatically takes defensive actions such as blocking attacker IP addresses.
 
 ---
 
@@ -10,9 +12,8 @@ It integrates multiple security modules into a single command-line interface for
 - 🔥 Firewall Setup and Management  
 - 🛡️ Intrusion Detection System (IDS)  
 - 🔍 Vulnerability Scanning  
-- 🧪 Antivirus Scanning  
-- 🌐 DDoS Protection  
 - 🔐 Brute Force Protection  
+- 🌐 DDoS Protection  
 - 📊 Real-Time Monitoring  
 - 🤖 Smart Auto Defense System  
 
@@ -28,7 +29,6 @@ AutoDefend-Framework/
 ├── modules/
 │ ├── firewall.sh
 │ ├── ids.sh
-│ ├── antivirus.sh
 │ ├── ddos.sh
 │ ├── brute_force.sh
 │ ├── monitor.sh
@@ -46,14 +46,20 @@ AutoDefend-Framework/
 ## ⚙️ Technologies Used
 - Linux (Kali Linux)
 - Bash Scripting
+- System Log Monitoring
 - Networking Tools
-- System Logs Monitoring
 
 ---
 
-## ▶️ How to Run
+## 🚀 Installation & Setup
+
+Follow these steps to install and run the framework:
+
+### 🔹 Clone the Repository
 
 ```bash
-cd AutoDefend-Framework
-chmod +x framework.sh
+git clone https://github.com/manasrana657/Auto-Defense-Cyber-Framework.git
+cd Auto-Defense-Cyber-Frameworkchmod 
+chmod +x install.sh framework.sh
+./install.sh
 ./framework.sh
